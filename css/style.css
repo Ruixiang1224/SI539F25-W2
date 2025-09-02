@@ -1,0 +1,27 @@
+h1{
+    color: blue;
+    background-color: red;
+    font-size: large;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: aqua;
+}
+div{
+    color: blueviolet;
+}
+li:first-child {
+  color: red;       /* first item */
+}
+
+li:last-child {
+  color: green;     /* last item */
+}
+
+li:nth-child(2) {
+  font-weight: bold;  /* second item */
+}
+body{
+    color: rgb(117, 117, 6);
+}
