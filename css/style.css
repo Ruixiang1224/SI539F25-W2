@@ -5,12 +5,14 @@ h1{
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-p{
-    color: aqua;
-}
+
 div{
     color: blueviolet;
 }
+p{
+    color: aqua;
+}
+
 li:first-child {
   color: red;       /* first item */
 }
@@ -21,7 +23,21 @@ li:last-child {
 
 li:nth-child(2) {
   font-weight: bold;  /* second item */
+  color: yellow;
 }
 body{
     color: rgb(117, 117, 6);
+}
+li{
+    border: solid 2px black;
+    border-width: 5px;
+}
+h2{
+    size: 10px;
+    background-color: black;
+    color: white;
+    border: 2px ;
+}
+body {
+  background-color: lightblue; /* pick any color */
 }
